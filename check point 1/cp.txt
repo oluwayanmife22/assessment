@@ -1,0 +1,13 @@
+1* Web development is the act of building creating and maintaining websites 
+
+2*  Yes  hyper text markup language
+It helps in the provision of essential structures for web pages
+
+
+3* No  I’m not familiar with java script  but i have heard that
+ It is used to style and layout HTML content, allowing web developers to separate the structure (HTML) from the presentation (CSS)
+
+4* No not at all 
+
+5* I want to learn web development because its intellectually challenging and creative
+Build accessible, SEO-friendly websites,Understand and apply core programming concepts such as variables, loops, functions, objects, and arrays.
