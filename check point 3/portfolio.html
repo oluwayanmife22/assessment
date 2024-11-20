@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    !-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Here you can find more about my work and experience.</p>
+        <video width="320" height="240" autoplay>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm a passionate web developer with experience in HTML, CSS, JavaScript, and backend technologies.</p>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML5 & CSS3</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>MySQL & MongoDB</li>
+        </ul>
+    </section>
+<!-- Work Section -->
+<section id="work">
+    <h2>My Work</h2>
+    <p>Here are some of the projects I've worked on:</p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Project 1</td>
+                <td>A full-stack web application</td>
+                <td><a href="project1.html" target="_blank">View Project</a></td>
+            </tr>
+            <tr>
+                <td>Project 2</td>
+                    <td>A mobile-responsive website</td>
+                    <td><a href="project2.html" target="_blank">View Project</a></td>
+                </tr>
+                <tr>
+                    <td>Project 3</td>
+                    <td>A JavaScript-based game</td>
+                    <td><a href="project3.html" target="_blank">View Project</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Here's a brief overview of my professional experience:</p>
+        <ul>
+            <li><strong>Junior Developer</strong> - ABC Corp (2024-2025)</li>
+        </ul>
+        <p>Download my full resume: <a href="resume.pdf" target="_blank">Download Resume</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:omotayooluwayanmife</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Your Email:oluwayanmifeomotayo22@gmail.com</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Portfolio | Designed by Me</p>
+    </footer>
+</body>
+
+</html>
