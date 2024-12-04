@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store</title>
+  <!-- Link to Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header */
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    /* Navigation */
+    header .nav .nav-link {
+      padding: 0 10px;
+    }
+
+    /* Product Cards */
+    .card {
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Footer */
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header .logo {
+        font-size: 1.2rem;
+      }
+
+      .card {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="logo">My Store</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Product Section -->
+  <section id="products" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Products</h2>
+      <div class="row">
+        <!-- Product 1 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Product 1</h5>
+              <p class="card-text">Brief description of Product 1.</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">SkyPulse</h5>
+              <p class="card-text">SkyPulse is a revolutionary tech gadget that redefines the way you interact with the digital world. Equipped with cutting-edge wireless technology, SkyPulse offers lightning-fast connectivity, immersive sound quality, and intuitive smart features. Whether you're streaming content, working, or gaming, SkyPulse ensures a seamless experience with its sleek design and powerful performance. Engineered for the future, it connects you to everything that matters, making it the ultimate tool for those who demand both style and substance in their tech.</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">NeoLink</h5>
+              <p class="card-text">NeoLink is a next-generation tech gadget designed to simplify and enhance connectivity. With its seamless integration across multiple devices, NeoLink enables effortless wireless communication, offering features like ultra-fast data transfer, smart device synchronization, and enhanced security. Ideal for professionals and tech enthusiasts, NeoLink is built to optimize efficiency and connectivity, providing a sleek and reliable solution for all your tech needs.</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 4">
+            <div class="card-body text-center">
+              <h5 class="card-title">VoltEdge</h5>
+              <p class="card-text">VoltEdge is a cutting-edge tech gadget designed to enhance your digital lifestyle. Combining sleek design with powerful functionality, VoltEdge serves as a versatile device for connectivity, productivity, and entertainment. Its advanced features include ultra-fast charging, seamless device integration, and intuitive controls, making it the perfect companion for tech enthusiasts on the go.</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 My Store. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
