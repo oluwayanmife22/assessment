@@ -1,0 +1,25 @@
+function analyzeSentence(sentence) {
+    let charCount = 0;
+    let wordCount = 0;
+    let vowelCount = 0;
+  
+    const vowels = 'AEIOUaeiou';
+  
+    for (let char of sentence) {
+      charCount++;
+      if (char === ' ') {
+        wordCount++;
+      }
+      if (vowels.includes(char)) {
+        vowelCount++;
+      }
+    }
+    if (sentence.trim() !== '') {
+      wordCount++;
+    }
+  
+    console.log(`Character count: ${charCount}`);
+    console.log(`Word count: ${wordCount}`);
+    console.log(`Vowel count: ${vowelCount}`);
+  }
+  
